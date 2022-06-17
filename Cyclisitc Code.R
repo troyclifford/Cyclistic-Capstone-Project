@@ -6,7 +6,7 @@ library(lubridate) #dates
 library(hms) #time
 library(data.table) #exporting data frame
 
-#load original .csv files, a years worth of data from August 2020 to July 2021
+#load original .csv files, a years worth of data from May 2021 to April 2022
 apr04_df <- read_csv("202204-divvy-tripdata.csv") 
 mar03_df <- read_csv("202203-divvy-tripdata.csv") 
 feb02_df <- read_csv("202202-divvy-tripdata.csv")
